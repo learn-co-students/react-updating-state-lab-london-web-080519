@@ -33,7 +33,7 @@ clicked = () => {
 
 render() {
     return (
-        <label value={this.state.timesClicked}>
+        <label value={this.state.timesClicked} text={this.state.timesClicked}>
 <button onClick={this.clicked} ></button>
 </label>
     )
